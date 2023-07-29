@@ -14,10 +14,10 @@ Using the np.linalg.eig(),  we get two results (first is eigenvalue and second i
 ### Step 4: 
 End the program
 ## Program:
+```
 #Program to find the eigen values and eigen vectors.
 #Developed by: AARON I
 #RegisterNumber:23002289
-```
 import numpy as np
 a=np.array([[2,2],[1,3]])
 val,vec=np.linalg.eig(a)
